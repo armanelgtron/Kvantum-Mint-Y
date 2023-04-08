@@ -1849,52 +1849,9 @@
      id="g405">
     <path
        id="button-toggled"
-       d="M 173.0001,52 V 20 h -32 v 32 z" />
-    <path
-       id="button-toggled-left"
-       d="M 141.0001,51.9998 V 20 h -6 v 32 z" />
+       d="M 173.0001,52 V 20 h -32 v 32 z"
+       style="fill:#d3d3d3;fill-opacity:1" />
   </g>
-  <path
-     style="fill:#92b372;fill-rule:evenodd"
-     id="button-toggled-topleft"
-     d="m 141.0001,14 c -3.3,-4.1e-05 -6.00002,2.69998 -6,6 h 6 z " />
-  <g
-     style="fill-rule:evenodd;fill:#92b372"
-     id="g411">
-    <path
-       id="button-toggled-top"
-       d="M 141.0002,20 173,20 l 0,-6 -32,0 z" />
-    <path
-       id="button-toggled-right"
-       d="m 179.0001,51.9998 0,-31.9998 -6,0 0,32 z " />
-    <path
-       id="button-toggled-bottom"
-       d="m 172.9999,52 -31.9998,0 0,6 32,0 z" />
-  </g>
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-toggled-topleft"
-     id="button-toggled-bottomleft"
-     transform="matrix(0,-1,1,0,121.0001,193.0001)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-toggled-topleft"
-     id="button-toggled-bottomright"
-     transform="rotate(180,157.0001,35.9999)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-toggled-topleft"
-     id="button-toggled-topright"
-     transform="matrix(-1,0,0,1,314.0002,0)" />
   <path
      style="fill:#fff;fill-rule:evenodd"
      id="tabframe-normal"
@@ -4816,6 +4773,80 @@
      xlink:href="#button-pressed-topleft"
      id="button-pressed-bottomright"
      transform="rotate(180,112.99985,36)"
+     width="100%"
+     height="100%" />
+  <g
+     style="stroke:none"
+     id="button-toggled-left"
+     transform="matrix(0.8,0,0,0.98461538,118.0001,-28.001378)">
+    <path
+       style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd"
+       id="path4266-9-6"
+       d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z" />
+    <path
+       style="color:#000000;line-height:normal;font-family:Sans;text-indent:0;text-align:start;text-transform:none;fill:#b7b7b7;fill-opacity:1"
+       id="path4268-3-7"
+       d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z" />
+  </g>
+  <use
+     x="0"
+     y="0"
+     xlink:href="#button-toggled-left"
+     id="button-toggled-top"
+     transform="rotate(90,157.0002,36.000099)"
+     width="100%"
+     height="100%" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#button-toggled-left"
+     id="button-toggled-bottom"
+     transform="rotate(-90,156.9999,35.999999)"
+     width="100%"
+     height="100%" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#button-toggled-left"
+     id="button-toggled-right"
+     transform="rotate(180,157.0001,35.999999)"
+     width="100%"
+     height="100%" />
+  <g
+     style="stroke:none"
+     id="button-toggled-topleft"
+     transform="matrix(0.8,0,0,0.8,118.0001,-19.00128)">
+    <path
+       style="fill:#d3d3d3;fill-opacity:1;fill-rule:evenodd"
+       id="path4272-0-3"
+       d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z" />
+    <path
+       style="color:#000000;line-height:normal;font-family:Sans;text-indent:0;text-align:start;text-transform:none;fill:#b7b7b7;fill-opacity:1"
+       id="path4274-6-3-5"
+       d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z" />
+  </g>
+  <use
+     x="0"
+     y="0"
+     xlink:href="#button-toggled-topleft"
+     id="button-toggled-bottomleft"
+     transform="rotate(-90,157.0002,36.000099)"
+     width="100%"
+     height="100%" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#button-toggled-topleft"
+     id="button-toggled-topright"
+     transform="rotate(90,157.0002,35.9999)"
+     width="100%"
+     height="100%" />
+  <use
+     x="0"
+     y="0"
+     xlink:href="#button-toggled-topleft"
+     id="button-toggled-bottomright"
+     transform="rotate(180,157.0001,35.9999)"
      width="100%"
      height="100%" />
 </svg>
