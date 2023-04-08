@@ -1584,7 +1584,7 @@
      y="0"
      height="100%"
      xlink:href="#flat-arrow-down-normal"
-     id="menuitem-right-focused"
+     id="menuitem-right-focused-old"
      transform="rotate(-90,118.0965,377.4035)" />
   <use
      width="100%"
@@ -1592,7 +1592,7 @@
      y="0"
      height="100%"
      xlink:href="#flat-arrow-down-normal"
-     id="menuitem-left-focused"
+     id="menuitem-left-focused-old"
      transform="rotate(90,38.75,491.25)" />
   <use
      width="100%"
@@ -3100,7 +3100,7 @@
          cy="232"
          rx="7.5000072"
          ry="7.5000076"
-         id="menu-radio-focused" />
+         id="menu-radio-focused-old" />
       <rect
          width="15.000229"
          x="224.49977"
