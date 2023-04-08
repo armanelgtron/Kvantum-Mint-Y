@@ -1930,7 +1930,7 @@
      id="button-focused-left"
      transform="matrix(0.8,0,0,0.98461538,30,-28.001575)">
     <path
-       style="fill:#404040;fill-rule:evenodd"
+       style="fill:#525252;fill-rule:evenodd"
        id="path5064"
        d="m 28.75,81.2514 0,-32.4998 -7.5,0 0,32.5 z" />
     <path
@@ -1943,7 +1943,7 @@
      id="button-focused-topleft"
      transform="matrix(0.8,0,0,0.8,30,-19.00128)">
     <path
-       style="fill:#404040;fill-rule:evenodd"
+       style="fill:#525252;fill-rule:evenodd"
        id="path5070"
        d="m 28.75,41.2516 c -4.125,-5.1e-05 -7.50003,3.37497 -7.5,7.5 h 7.5 z " />
     <path
