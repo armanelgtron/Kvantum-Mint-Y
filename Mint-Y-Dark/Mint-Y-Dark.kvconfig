@@ -385,6 +385,8 @@ frame.element=menubar
 interior.element=menubar
 frame.bottom=0
 frame.expansion=0
+text.normal.color=#ffffffc8
+text.normal.inactive.color=#ffffff88
 
 [MenuBarItem]
 inherits=PanelButtonCommand
