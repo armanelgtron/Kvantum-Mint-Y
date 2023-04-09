@@ -342,7 +342,7 @@
     <circle
        cx="330"
        cy="743.5"
-       style="fill:#fbfbfc;stroke:#a5afc3"
+       style="fill:#fbfbfc;stroke:#b8b8b8;stroke-opacity:1"
        id="slidercursor-normal"
        r="8.4999743" />
     <circle
@@ -1250,7 +1250,7 @@
     <circle
        cx="362.5"
        cy="743.5"
-       style="fill:#fff;stroke:#a5afc3"
+       style="fill:#ffffff;stroke:#c3c3c3;stroke-opacity:1"
        r="8.4999743"
        id="slidercursor-focused" />
     <circle
