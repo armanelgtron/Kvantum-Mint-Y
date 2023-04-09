@@ -77,7 +77,7 @@ def main():
 				open( os.path.join( themeName, ".generated" ), "w" ).close();
 			
 			# get the new color
-			if( isinstance( subthemes[ theme ], tuple ) ):
+			if( isinstance( subthemes[ theme ], ( list, tuple ) ) ):
 				newColor = subthemes[ theme ][ i ];
 			else:
 				newColor = subthemes[ theme ];
