@@ -313,16 +313,17 @@
        x="-607.49298"
        y="8"
        height="24"
-       style="opacity:0;fill:#fff"
+       style="opacity:0;fill:#ffffff"
        id="rect6725"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="rotate(-90)" />
     <path
        style="fill:#a0a0a0"
        id="path6728"
-       d="M 8,602.986 20,588 32,602.986 c 0,0 -7.00002,-3.18601 -12,-3.18601 -5,0 -12,3.18601 -12,3.18601 z" />
+       d="M 8,602.986 20,588 32,602.986 Z"
+       sodipodi:nodetypes="cccc" />
   </g>
   <g
-     style="stroke:none;fill:#fff"
+     style="fill:#ffffff;stroke:none"
      id="arrow-up-pressed"
      transform="translate(-17,-342.99298)">
     <rect
@@ -332,10 +333,11 @@
        height="24"
        style="opacity:0"
        id="rect6747"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="rotate(-90)" />
     <path
        id="path6749"
-       d="M 98,602.986 110,588 l 12.0001,14.986 c 0,0 -7.00002,-3.18601 -12,-3.18601 -5,0 -12,3.18601 -12,3.18601 z" />
+       d="M 98,602.986 110,588 l 12.0001,14.986 h -24 z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      style="fill-rule:evenodd"
@@ -483,13 +485,14 @@
        x="-607.49298"
        y="8"
        height="24"
-       style="opacity:0;fill:#fff"
+       style="opacity:0;fill:#ffffff"
        id="rect4881"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="rotate(-90)" />
     <path
        style="fill:#c3c3c3"
        id="path4883"
-       d="M 8,602.986 20,588 32,602.986 c 0,0 -7.00002,-3.18601 -12,-3.18601 -5,0 -12,3.18601 -12,3.18601 z" />
+       d="M 8,602.986 20,588 32,602.986 Z"
+       sodipodi:nodetypes="cccc" />
   </g>
   <use
      width="450"
@@ -524,13 +527,14 @@
        x="-607.49298"
        y="8"
        height="24"
-       style="opacity:0;fill:#fff"
+       style="opacity:0;fill:#ffffff"
        id="rect4909"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="rotate(-90)" />
     <path
        style="fill:#787878"
        id="path4911"
-       d="M 8,602.986 20,588 32,602.986 c 0,0 -7.00002,-3.18601 -12,-3.18601 -5,0 -12,3.18601 -12,3.18601 z" />
+       d="M 8,602.986 20,588 32,602.986 Z"
+       sodipodi:nodetypes="cccc" />
   </g>
   <use
      width="450"
@@ -1020,9 +1024,9 @@
     </g>
   </g>
   <g
-     style="fill:#fff;stroke:none"
+     style="fill:#ffffff;stroke:none"
      id="flat-arrow-down-normal"
-     transform="matrix(-1,0,0,-1,57.5,979.79999)">
+     transform="rotate(180,28.75,489.89999)">
     <rect
        width="24"
        x="-607.49298"
@@ -1030,10 +1034,11 @@
        height="24"
        style="opacity:0"
        id="rect3832"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="rotate(-90)" />
     <path
        id="path3834"
-       d="m 8,602.986 12,-14.986 12,14.986 c 0,0 -7.00002,-3.18601 -12,-3.18601 -5,0 -12,3.18601 -12,3.18601 z " />
+       d="M 8,602.986 20,588 32,602.986 Z"
+       sodipodi:nodetypes="cccc" />
   </g>
   <use
      width="450"
