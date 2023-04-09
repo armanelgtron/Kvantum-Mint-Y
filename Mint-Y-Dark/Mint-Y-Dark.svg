@@ -4936,54 +4936,6 @@
        id="path4274-5"
        d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z" />
   </g>
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-normal-left"
-     id="button-normal-top-6"
-     transform="rotate(90,245.47481,339.93215)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-normal-left"
-     id="button-normal-right-2"
-     transform="matrix(-1,0,0,1,574.40706,83.457345)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-normal-topleft-5"
-     id="button-normal-topright-9"
-     transform="matrix(-1,0,0,1,886.90728,26.957443)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-normal-left"
-     id="button-normal-bottom-1"
-     transform="rotate(-90,328.93225,-184.47491)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-normal-topleft-5"
-     id="button-normal-bottomleft-2"
-     transform="rotate(-90,456.93235,0.02518538)" />
-  <use
-     width="100%"
-     x="0"
-     y="0"
-     height="100%"
-     xlink:href="#button-normal-topleft-5"
-     id="button-normal-bottomright-7"
-     transform="rotate(180,443.45363,105.97863)" />
   <g
      style="stroke:none"
      id="button-pressed-left"
