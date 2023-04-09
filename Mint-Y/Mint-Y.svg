@@ -1415,9 +1415,10 @@
          d="m 320.0001,140 h 31.9998 v -10 h -32 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1" />
       <path
-         style="fill:none;stroke:#c7c7c7;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 319.9999,130 h 32.0002"
-         id="path6176" />
+         style="fill:none;stroke:#c7c7c7;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 320.52585,130 h 30.96068"
+         id="path6176"
+         sodipodi:nodetypes="cc" />
     </g>
     <g
        id="progress-normal-left">
@@ -1437,9 +1438,10 @@
          d="M 351.9998,172 H 320 v 10 h 32 z"
          style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-opacity:1" />
       <path
-         style="fill:none;stroke:#c7c7c7;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 320,182 h 31.99997"
-         id="path6180" />
+         style="fill:none;stroke:#c7c7c7;stroke-width:1px;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 320.51973,182 H 351.4988"
+         id="path6180"
+         sodipodi:nodetypes="cc" />
     </g>
     <g
        id="progress-normal-right">
