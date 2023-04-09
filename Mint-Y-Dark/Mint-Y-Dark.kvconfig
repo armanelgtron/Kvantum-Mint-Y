@@ -8,7 +8,7 @@ attach_active_tab=true
 mirror_doc_tabs=true
 group_toolbar_buttons=false
 toolbar_item_spacing=1
-toolbar_interior_spacing=3
+toolbar_interior_spacing=4
 spread_progressbar=true
 composite=true
 menu_shadow_depth=5
@@ -273,6 +273,18 @@ text.focus.color=white
 frame.bottom=0
 frame.expansion=0
 
+[PanelButtonTool]
+inherits=PanelButtonCommand
+frame=true
+frame.top=3
+frame.bottom=3
+frame.left=6
+frame.right=6
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=0
+text.margin.right=0
+
 [Slider]
 inherits=PanelButtonCommand
 frame.element=slider
@@ -361,8 +373,8 @@ text.margin.top=1
 text.margin.bottom=1
 text.margin.left=15
 text.margin.right=5
-frame.top=3
-frame.bottom=3
+frame.top=1
+frame.bottom=1
 frame.left=3
 frame.right=3
 frame.expansion=0
