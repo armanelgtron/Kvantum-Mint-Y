@@ -264,6 +264,7 @@ frame=false
 interior.element=menubar
 frame.element=menubar
 text.normal.color=#000000c8
+text.normal.inactive.color=#00000088
 text.focus.color=black
 frame.bottom=0
 frame.expansion=0
@@ -393,7 +394,7 @@ indicator.element=mdi
 text.normal.color=#787878
 text.focus.color=black
 text.bold=true
-text.italic=false
+text.italic=true
 frame.expansion=0
 
 [ComboBox]

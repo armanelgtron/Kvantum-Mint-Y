@@ -268,6 +268,7 @@ frame=false
 interior.element=menubar
 frame.element=menubar
 text.normal.color=#ffffffc8
+text.normal.inactive.color=#ffffff88
 text.focus.color=white
 frame.bottom=0
 frame.expansion=0
