@@ -16,10 +16,12 @@
 
 baseColors = ( 0x92b372, 0x8fa876 );
 baseThemes = ( "Mint-Y", "Mint-Y-Dark" );
+baseThemeReal = "Legacy";
 
 subBaseColors = ( 0x859b6f, 0xafca95, 0x779559 );
 
 subthemes = {
+	None:     0x35a854, # the new green
 	"Aqua":   0x1f9ede,
 	"Blue":   0x0c75de,
 	"Brown": (0xb7865e, 0xaa876a),
@@ -59,15 +61,20 @@ def main():
 	for i,base in enumerate( baseThemes ):
 		baseConfig = baseSvg = "";
 		
-		with open( os.path.join( base, base+".kvconfig" ), "r" ) as f:
+		baseReal = "%s-%s" % ( base, baseThemeReal );
+		
+		with open( os.path.join( baseReal, baseReal+".kvconfig" ), "r" ) as f:
 			baseConfig = f.read();
 			
-		with open( os.path.join( base, base+".svg" ), "r" ) as f:
+		with open( os.path.join( baseReal, baseReal+".svg" ), "r" ) as f:
 			baseSvg = f.read();
 		
 		
 		for theme in subthemes:
-			themeName = "%s-%s" % ( base, theme );
+			if( theme ):
+				themeName = "%s-%s" % ( base, theme );
+			else:
+				themeName = base;
 			try:
 				os.mkdir(themeName);
 			except FileExistsError:
@@ -103,7 +110,8 @@ def main():
 				for y,c in enumerate( baseColor ):
 					newConfig = c.sub( replColor[y], newConfig );
 				newConfig = newConfig.split("\n");
-				newConfig[2] = "comment=The %s variation of the %s theme." % ( theme, base );
+				if( theme ):
+					newConfig[2] = "comment=The %s variation of the %s theme." % ( theme, base );
 				f.write( str.join( "\n", newConfig ) );
 			
 			with open( os.path.join( themeName, themeName+".svg" ), "w" ) as f:
